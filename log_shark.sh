@@ -14,6 +14,7 @@ function menu {
 	for((i=0;i<N;i++)); do
 	c=$(($c + 1))
 	echo "$c) ${options[$i]}"
+	done
 	echo "##########################################"
 }
 
